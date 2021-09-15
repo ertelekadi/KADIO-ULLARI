@@ -1,0 +1,8 @@
+sayi = 196
+
+kok = sayi**0.5
+
+if kok**2 == int(kok)**2:
+    print("Evet karesi")
+else:
+    print("Karesi değil")

@@ -1,0 +1,11 @@
+kelime = "yapay"
+palindrom = True
+for i in range(len(kelime)):
+    if kelime[i] != kelime[-i-1]:
+        palindrom = False
+        break
+
+if polindrom:
+    print("Polindrom kelime")
+else:
+    print("Polindrom kelime değil")
